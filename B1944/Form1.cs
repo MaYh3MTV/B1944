@@ -81,6 +81,7 @@ namespace B1944
             if (version.Split(':')[1] == temp.Split(':')[1])
             {
                 label3.Text = "The version is up to date";
+                button2.Visible = false;
             }
             else
             {
